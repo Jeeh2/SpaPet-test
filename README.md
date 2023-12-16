@@ -1,10 +1,9 @@
 # README - Projeto SpaPetTest
 
 ## Participantes
-Jessica de Oliveira Alves
-Jessica Lima
-Luciana Souza Ferreira de Oliveira
-Introdução
+Jessica de Oliveira Alves | Jessica Lima | Luciana Souza Ferreira de Oliveira
+
+## Introdução
 Este projeto consiste em testes end-to-end que são realizados diretamente no projeto disponível em https://github.com/lucianasfoliveira/SpaPetTest. O objetivo é garantir a integridade e funcionalidade da aplicação por meio de cenários de teste automatizados.
 
 ## Requisitos
@@ -15,12 +14,12 @@ Certifique-se de ter o Java 11 ou 17 instalado em seu sistema.
 
 ## Funcionalidades
 ### Feature: Customer Login
-Scenario: Customer tries to login with invalid email and password
+#### Scenario: Customer tries to login with invalid email and password
 Given an existing customer with invalid email and password
 When the customer attempts to log in
 Then the system returns a 403 Unauthorized status
 
-Scenario: Validation of error message for invalid login
+#### Scenario: Validation of error message for invalid login
 Given an existing customer with invalid email and password
 When the customer attempts to log in
 Then the system returns a 403 Unauthorized status
