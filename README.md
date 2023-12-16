@@ -1,7 +1,7 @@
 # README - Projeto SpaPetTest
 
 ## Participantes
-Jessica de Oliveira Alves | Jessica Lima | Luciana Souza Ferreira de Oliveira
+Jessica de Oliveira Alves | Jessica Pereira Lima | Luciana Souza Ferreira de Oliveira
 
 ## Introdução
 Este projeto consiste em testes end-to-end que são realizados diretamente no projeto disponível em https://github.com/lucianasfoliveira/SpaPetTest. O objetivo é garantir a integridade e funcionalidade da aplicação por meio de cenários de teste automatizados.
@@ -29,3 +29,23 @@ When the customer attempts to log in
 Then the system returns a 403 Unauthorized status
 
 And the error message is displayed to the customer
+
+## Executando o Projeto
+
+Siga os passos abaixo para executar o projeto em sua máquina:
+
+1. **Clone os repositórios:**
+    ```bash
+    git clone https://github.com/lucianasfoliveira/SpaPetTest.git
+    git clone https://github.com/Jeeh2/SpaPet-test.git
+    ```
+
+2. **Abra os projetos em sua IDE:**
+   - Importe ambos os projetos em sua IDE, usando janelas diferentes.
+
+3. **Execute a aplicação Spring Boot:**
+   - Execute a aplicação Spring Boot do projeto SpaPetTest.
+
+4. **Execute a classe do CucumberRunner:**
+   - Execute a classe do CucumberRunner do projeto spaPet-tests.
+
